@@ -1,0 +1,62 @@
+.flight-card {
+  position: relative;
+  width: 30%;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 8px 0;
+}
+
+.flight_number {
+  position: absolute;
+  right: 16px;
+  top: 16px;
+  background-color: white;
+  padding: 2px;
+}
+
+.image_container {
+  min-height: 200px;
+}
+
+.primary-details-container {
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+.title-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.title {
+  margin-right: 4px;
+}
+
+.date-time {
+  margin-left: 4px;
+  white-space: nowrap;
+}
+
+.details-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.rocket-number {
+  border: 1px solid #D2042D;
+  background: #FDEDED;
+  border-radius: 4px;
+  padding: 0 4px;
+}
+
+@media screen and (max-width: 768px) {
+  .flight-card {
+    width: 100%;
+  }
+}
